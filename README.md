@@ -3,7 +3,7 @@ A small **unfinished** toy interpreter in C++
 it just support :
 - simple call stack (still lacking some instructions)
 - simple arithmetic
-- function
+- simple control flow/if/goto
 
 No memory allocation (malloc/free/deref)
 
