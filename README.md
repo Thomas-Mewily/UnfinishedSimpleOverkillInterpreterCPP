@@ -11,14 +11,14 @@ Check out `cpu.cpp` at line 33 for the giant macro `VM_SWITCH` that expend in 4 
 
 ## Prefix :
 
-`w` stand for word (a serie of bit, can only do bit operation on them)
-`i` for for signed integer
-`u` for for unsigned integer
+- `w` stand for word (a serie of bit, can only do bit operation on them)
+- `i` for for signed integer
+- `u` for for unsigned integer
 
 
 ## Postfix :
-`8`, `16`, `32`, `64` stand for the bit precision (like `u8`, `i64`)
-`max` for the maximun precision available
+- `8`, `16`, `32`, `64` stand for the bit precision (like `u8`, `i64`)
+- `max` for the maximun precision available
 
 ## Instruction Set
 
@@ -237,3 +237,7 @@ Run :
 ```shell
 ./bin/test.exe
 ```
+
+## Licence
+
+This is under the Unlicense (see `license.md` ), aka : do what you want with it
